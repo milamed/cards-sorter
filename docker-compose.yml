@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  cards:
+    build:
+      context: .
+    container_name: cards-sorter
+    ports:
+        - 8080:8080
